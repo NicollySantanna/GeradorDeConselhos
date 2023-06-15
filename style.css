@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(3, 53, 59);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(38, 78, 90);
+    width: 20rem;
+    height: 25rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+.title,
+.phrase{
+    padding: 2rem;
+}
+
+.btn-phrase{
+    width: 3rem;
+    height: 3rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color:rgb(181, 201, 207);
+    border-radius: 5rem;
+    cursor: pointer;
+   transition: all .3s;
+}
+
+.btn-phrase:hover{
+    background-color: white
+}
